@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Enter Information</h2>
+    <form action="post">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" name="lname" id="lname" placeholder="Last Name"><br>
+    </form>
+    <!-- For radio -->
+     <form>
+        <input type="radio" name="fav_lang" id="html" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" name="fav_lang" id="css" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" name="fav_lang" id="js" value="JAVASCRIPT">
+        <label for="js">JAVASCRIPT</label>
+     </form>
+     <!-- For Checkbox -->
+      <form action="post">
+        <input type="checkbox" name="vehicle1" id="vehicle1" value="Bike">
+        <label for="vehicle1">I have a Bike </label><br>
+        <input type="checkbox" name="vehicle2" id="vehicle2" value="Car">
+        <label for="vehicle2">I have a Car </label><br>
+        <input type="checkbox" name="vehicle3" id="vehicle3" value="Cycle">
+        <label for="vehicle3">I have a Cycle</label><br>
+        <input type="submit" value="Submit">
+      </form>
+      
+
+  
+    <script src="script.js"></script>
+    
+</body>
+</html>

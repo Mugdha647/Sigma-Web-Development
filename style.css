@@ -1,3 +1,15 @@
 body{
     background-color: aqua;
 }
+a{
+    background-color: red;
+}
+p{
+    background-color: pink;
+}
+div{
+    background-color: blue;
+}
+span{
+    background-color: yellow;
+}
