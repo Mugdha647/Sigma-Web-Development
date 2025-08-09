@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SEELECTORS</title>
+    <style>
+        div{
+            background-color: red;
+        }
+        .red{
+            background-color: yellow;
+        }
+        #green{
+            background-color: green;
+        }
+        div >p{
+            color: blue;
+            background-color: aqua;
+        }
+        /* Pseudo Selector */
+        a:visited{
+            color: yellow;
+        }
+        a:link{
+            color:red
+        }
+        a:active{
+            background-color: aqua;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        p:first-child{
+            background-color: blue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>
+        i ama div
+    </div>
+    <div class="red">
+        i am Mugdha
+    </div>
+    <div id="green">
+        i am green
+    </div>
+    <div >
+            <p>How are You</p>
+    </div>
+    <a href="http://www.google.com">Google</a>
+    <a href="http://www.facebook.com">facebook</a>
+    <div class="one">
+        i am one
+    </div>
+    <main>
+        <p>How are you</p>
+        <p>How are you</p>
+    </main>
+</body>
+</html>
