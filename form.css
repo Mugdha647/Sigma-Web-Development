@@ -1,6 +1,6 @@
 *{
     font-family: 'Times New Roman', Times, serif;
-    margin: 0;
+     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: large;
@@ -17,7 +17,7 @@ body{
 .wrapper{
     width: 420px;
     background: transparent;
-    border: 2px solid rgba(255,255,255,0.2);
+    border: 2px solid white;
     color: #fff;
     border-radius: 10px;
     padding: 30px 40px;
@@ -25,6 +25,7 @@ body{
 .wrapper h1{
     font-size: 36px;
     text-align: center;
+    
 }
 .wrapper .input-box{
     width: 100%;
@@ -34,7 +35,6 @@ body{
     border-radius: 5px;
     outline: none;
     background: transparent;
-    color: blue;
 }
 .input-box input{
     width:100%;
@@ -42,10 +42,10 @@ body{
     background: transparent;
     border: none;
     outline: none;
-    border:2px solid rgba(255,255,255,0.2);
+    
     border-radius: 40px;
     font-size: 16 px;
-    color:#fff;
+   
     padding:20px 45px 20px 20px;
 }
 .input-box input::placeholder{
@@ -55,7 +55,7 @@ body{
     display: flex;
     justify-content: space-between;
     font-size: 14.5 px;
-    margin: -15px 0 15px;
+    margin:-15px 0 15px;
 }
 .remember-forget a{
     color: #fff;
@@ -63,6 +63,7 @@ body{
 }
 .remember-forget a:hover{
     text-decoration: underline;
+    color: blue;
 }
 .wrapper .btn  {  
    width:100%;
